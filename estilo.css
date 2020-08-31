@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+
+/*aviso covid19*/
+
+.nav-container .covid19 {
+  background-color: #1473e6;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  justify-content: center;
+  display: flex;
+}
+
+.nav-container .covid19 p {
+  color: #ffffff;
+}
+
+.nav-container .covid19 a {
+  color: #ffffff;
+}
+
+
+/*cabeçalho*/
+
+.nav-container header {
+display: flex;
+justify-content: space-between;
+justify-content: space-between;
+align-items: center;
+margin-top: 15px;
+}
+
+.nav-container header .logo .span-logo{
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.nav-container header .busca{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-container header .busca a{
+  text-decoration: none;
+}
+
+.nav-container header .busca a:hover{
+  color: #1473e6;
+}
+
+.nav-container header ul li{
+  display: inline;
+ 
+}
+
+.nav-container header ul li a{
+  text-decoration: none;
+  
+}
+
+.nav-container header a{
+ color: #2c2c2c;
+ margin-left: 30px;
+ 
+}
+
+/*corpo da pagina*/
+
+main{
+background-image: url(img/bg.jpg);
+background-repeat: no-repeat center;
+background-size: cover;
+height: 1280px;
+margin-top: 15px;
+
+}
+
+main .div-1{
+  max-width: 1700px;
+  text-align: center;
+  padding: 172px 0;
+  display: grid;
+  justify-content: end;
+  margin-left: 350px;
+  max-width: 900px;
+  text-align: center;
+
+ }
+
+
+main .div-1 h1{
+  font-size: 2rem;
+  line-height: 2.25rem;
+}
+
+main .div-1 p{
+  margin-top: 25px;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
+
+main .div-1 a{
+  margin-top: 25px;
+  align-self: center;
+}
+
+
+.btn-1{
+  display: inline block;
+  padding: 7px 14px 4.5px 14px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: bold;
+  color: white;
+  border-radius: 16px;
+  background: #1473e6;
+  text-decoration: none;
+  
+}
+
+main .div-1 .saiba-mais{
+  justify-self: center;
+  display: block;
+  width: 100%;
+  color: #000;
+  text-decoration: none;
+}
+
+ main section img{
+  width: 370px;
+  height: 200px;
+  max-width: 100%;
+  margin-top: 20px;
+ 
+}
+
+ main section{
+  background: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1100px;
+  margin: 0 auto;
+  gap:25px;
+  padding: 25px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+main section h2{
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  font-weight: normal;
+
+}
+
+main section h1{
+ margin-top: 20px;
+ text-align: center;
+ font-size: 2rem;
+ line-height: 2.25rem;
+ font-weight: 300;
+}
+
+main section p{
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin-bottom: 45px;
+}
+
+.btn-2{
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 16px;
+  min-height: 32px;
+  height: auto;
+  min-width: 72px;
+  padding: 4px 14px;
+  padding-bottom: 4.5px;
+  padding-top: 3.5px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: transparent;
+  border-color: #505050;
+  color: #505050;
+  text-decoration: none;
+  margin-top: 20px;
+  
+  }
+
+  section .centralizar{
+    text-align: center;
+  }
+   
+
+
+.btn-2:hover{
+  background: #505050;
+  color: #ffffff;
+}
+
